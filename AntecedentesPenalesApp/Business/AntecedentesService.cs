@@ -21,5 +21,6 @@ namespace AntecedentesPenalesApp.Business
         {
             return _dataAccess.BuscarAntecedentes(numeroCedula);
         }
+
     }
 }
