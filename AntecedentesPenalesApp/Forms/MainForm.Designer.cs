@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.buttonPersonas = new System.Windows.Forms.Button();
-            this.buttonProvincias = new System.Windows.Forms.Button();
             this.buttonRecords = new System.Windows.Forms.Button();
+            this.buttonProvincias = new System.Windows.Forms.Button();
+            this.buttonPersonas = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -48,19 +48,19 @@
             this.panel1.Size = new System.Drawing.Size(1800, 1005);
             this.panel1.TabIndex = 0;
             // 
-            // buttonPersonas
+            // buttonRecords
             // 
-            this.buttonPersonas.Location = new System.Drawing.Point(74, 150);
-            this.buttonPersonas.Name = "buttonPersonas";
-            this.buttonPersonas.Size = new System.Drawing.Size(199, 63);
-            this.buttonPersonas.TabIndex = 0;
-            this.buttonPersonas.Text = "Personas";
-            this.buttonPersonas.UseVisualStyleBackColor = true;
-            this.buttonPersonas.Click += new System.EventHandler(this.buttonPersonas_Click);
+            this.buttonRecords.Location = new System.Drawing.Point(62, 173);
+            this.buttonRecords.Name = "buttonRecords";
+            this.buttonRecords.Size = new System.Drawing.Size(199, 63);
+            this.buttonRecords.TabIndex = 2;
+            this.buttonRecords.Text = "Antecedentes";
+            this.buttonRecords.UseVisualStyleBackColor = true;
+            this.buttonRecords.Click += new System.EventHandler(this.buttonRecords_Click);
             // 
             // buttonProvincias
             // 
-            this.buttonProvincias.Location = new System.Drawing.Point(74, 456);
+            this.buttonProvincias.Location = new System.Drawing.Point(62, 720);
             this.buttonProvincias.Name = "buttonProvincias";
             this.buttonProvincias.Size = new System.Drawing.Size(199, 63);
             this.buttonProvincias.TabIndex = 1;
@@ -68,15 +68,15 @@
             this.buttonProvincias.UseVisualStyleBackColor = true;
             this.buttonProvincias.Click += new System.EventHandler(this.buttonProvincias_Click);
             // 
-            // buttonRecords
+            // buttonPersonas
             // 
-            this.buttonRecords.Location = new System.Drawing.Point(74, 774);
-            this.buttonRecords.Name = "buttonRecords";
-            this.buttonRecords.Size = new System.Drawing.Size(199, 63);
-            this.buttonRecords.TabIndex = 2;
-            this.buttonRecords.Text = "Antecedentes";
-            this.buttonRecords.UseVisualStyleBackColor = true;
-            this.buttonRecords.Click += new System.EventHandler(this.buttonRecords_Click);
+            this.buttonPersonas.Location = new System.Drawing.Point(62, 443);
+            this.buttonPersonas.Name = "buttonPersonas";
+            this.buttonPersonas.Size = new System.Drawing.Size(199, 63);
+            this.buttonPersonas.TabIndex = 0;
+            this.buttonPersonas.Text = "Personas";
+            this.buttonPersonas.UseVisualStyleBackColor = true;
+            this.buttonPersonas.Click += new System.EventHandler(this.buttonPersonas_Click);
             // 
             // panel2
             // 
