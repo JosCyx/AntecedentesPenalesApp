@@ -11,5 +11,6 @@ namespace AntecedentesPenalesApp.Models
         public int ProvinciaID { get; set; }
         public string CodigoProvincia { get; set; }
         public string NombreProvincia { get; set; }
+        public string TablaProvincia { get; set; }
     }
 }
